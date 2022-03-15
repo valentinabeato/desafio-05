@@ -1,0 +1,176 @@
+/* --- General --- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:link, a:visited,  a:hover, a:active
+{
+    text-decoration: none;
+    color: inherit;
+}
+.font1{
+    font-family: "Poppins";
+}
+.naranja{
+    color: #ff6e0d;
+}
+.margin{
+    margin: 0 0 0 0;
+    padding: 0;
+}
+.col{
+    padding: 0 !important;
+}
+  
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.barra-nav {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    justify-content: flex-end;
+    font-weight: 600;
+}
+
+
+
+.fondo1{
+    background-image:url(../img/gyym2.jpg);
+    background-repeat: no-repeat;
+}
+.medio{
+    height: 470px;
+}
+.boton{
+    color: white;
+    font-size: 20px;
+    font-family: "Montserrat";
+    padding:15px 20px 15px 20px;
+    border-color: #090809;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: #090809;
+}
+.centrar_boton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.centrar_todo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+.texto-normal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Montserrat";
+    font-size: 20px;
+    color: white;
+}
+.titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Montserrat";
+    font-size: 40px;
+    color: #ff6e0d;
+    font-weight: 800;
+}
+
+.margen{
+    margin-top: 20px;
+}
+.acomodar_fotos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.texto-cards{
+    font-family: "Poppins";
+    color: #ff6e0d;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.fondo3{
+    background-color: #e8e9eb;
+}
+.imagen{
+    width: 30px;
+    height: 30px;
+}
+.imagen2{
+    width: 35px;
+    height: 30px;
+}
+.texto_footer{
+    font-family: "Poppins";
+    font-size: 20px;
+    color: #090809;
+    text-indent: 1px;
+    margin-left: 10px;
+    text-align: left;
+    line-height: 40px;
+}
+.acomodar_redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.mapa{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 0px;
+}
+.cont{
+    position: relative;
+    text-align: justify;
+    color: rgb(255, 251, 251);
+}
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+
+
+
+
+/* --- Bootstrap --- */
+.row1{
+    background-color: #010506;
+}
+.row2{
+    background-color: none;
+}
+.row3{
+    background-color: none;
+}
+.row4{
+    background-color: lightgreen;
+}
