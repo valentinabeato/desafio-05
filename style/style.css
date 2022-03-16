@@ -29,13 +29,15 @@ a:link, a:visited,  a:hover, a:active
     margin: 0 0 0 0;
     padding: 0;
 }
-.col{
-    padding: 0 !important;
-}
-  
+.padding-cero{
+    padding: 0;
+}  
 .row{
     margin-left: 0;
     margin-right: 0;
+}
+body{
+    overflow-x: hidden;
 }
 /* --- header --- */
 .barra-nav {
@@ -47,9 +49,18 @@ a:link, a:visited,  a:hover, a:active
     font-weight: 600;
 }
 .row1{
-    background-color: #090809;
+    background-color: #040404;
 }
-
+.acomodar{
+    display: flex;
+    flex-direction: row;
+    margin-right: 70px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 /* --- medio --- */
 .fondo1{
     background-image:url(../img/gyym2.jpg);
@@ -180,6 +191,7 @@ a:link, a:visited,  a:hover, a:active
 }
 .fondo6{
     background-image: url(../img/planes.jpg);
+    background-repeat: no-repeat;
 }
 .letra-planes{
     font-family: 'Passion One';
