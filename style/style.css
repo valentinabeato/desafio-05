@@ -1,3 +1,4 @@
+/* --- Bootstrap --- */
 /* --- General --- */
 * {
     box-sizing: border-box;
@@ -18,6 +19,8 @@ a:link, a:visited,  a:hover, a:active
 }
 .font1{
     font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 600;
 }
 .naranja{
     color: #ff6e0d;
@@ -34,7 +37,7 @@ a:link, a:visited,  a:hover, a:active
     margin-left: 0;
     margin-right: 0;
 }
-
+/* --- header --- */
 .barra-nav {
     display: flex;
     flex-direction: row;
@@ -43,9 +46,11 @@ a:link, a:visited,  a:hover, a:active
     justify-content: flex-end;
     font-weight: 600;
 }
+.row1{
+    background-color: #090809;
+}
 
-
-
+/* --- medio --- */
 .fondo1{
     background-image:url(../img/gyym2.jpg);
     background-repeat: no-repeat;
@@ -92,24 +97,24 @@ a:link, a:visited,  a:hover, a:active
     color: #ff6e0d;
     font-weight: 800;
 }
-
+/* --- cards --- */
 .margen{
     margin-top: 20px;
 }
 .acomodar_fotos{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-bottom: 20px;
 }
 .texto-cards{
-    font-family: "Poppins";
-    color: #ff6e0d;
-    font-weight: 700;
-    font-size: 20px;
+    font-family: "Poppins" ;
+    color: #ff6e0d ;
+    font-weight: 700 ;
+    font-size: 20px ;
 }
 
-
+/* --- footer --- */
 .fondo3{
     background-color: #e8e9eb;
 }
@@ -157,20 +162,35 @@ a:link, a:visited,  a:hover, a:active
     left: 16px;
 }
 
+/* --- pagina formulario --- */
+.flex-lista{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+.texto_planes{
+    font-size: 20px;
+    font-family: "Poppins";
+    color: black;
+    font-weight: 600;
+    text-align: justify;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+.fondo6{
+    background-image: url(../img/planes.jpg);
+}
+.letra-planes{
+    font-family: 'Passion One';
+    color: white;
+    font-size: 70px;
+    font-weight: 500;
+}
+.margen-acordion{
+    margin: 10px 10px 30px 10px;
+}
 
 
 
 
-/* --- Bootstrap --- */
-.row1{
-    background-color: #010506;
-}
-.row2{
-    background-color: none;
-}
-.row3{
-    background-color: none;
-}
-.row4{
-    background-color: lightgreen;
-}
